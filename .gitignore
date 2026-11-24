@@ -1,0 +1,43 @@
+# ===== 打包 / 压缩产物 =====
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+
+# ===== 构建产物 =====
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+coverage/
+node_modules/
+
+# ===== macOS 压缩包解压产生的元数据 =====
+__MACOSX/
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== Windows 系统文件 =====
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ===== 编辑器 / IDE 文件 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 项目自身数据（非版本控制内容） =====
+.workbuddy/
